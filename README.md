@@ -6,5 +6,5 @@
 |                        |       |
 
 
-[0031]: https://github.com/mcrwayfun/Sword-wonderful-offer/master/_03_01_DuplicationInArray/README.md
+[0031]: https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_03_01_DuplicationInArray/README.md
 
