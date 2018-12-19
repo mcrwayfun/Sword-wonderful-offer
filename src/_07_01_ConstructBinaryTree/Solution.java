@@ -55,7 +55,7 @@ public class Solution {
         }
 
         // 计算前序数组中左子树节点个数
-        int len = rootIndex - preOrderStartIndex;
+        int len = rootIndex - inOrderStartIndex;
         if (len > 0) {
             // 构建左子树
             // 前序数组的左子树取值范围为[preOrderStartIndex + 1,preOrderStartIndex + len]
@@ -84,25 +84,48 @@ public class Solution {
          *     /  \
          *    15   7
          */
-        TreeNode root15 = new TreeNode(15);
-        TreeNode root7 = new TreeNode(7);
-
-        TreeNode root20 = new TreeNode(20);
-        root20.left = root15;
-        root20.right = root7;
-
-        TreeNode root9 = new TreeNode(9);
-
-        TreeNode root3 = new TreeNode(3);
-        root3.left = root9;
-        root3.right = root20;
-
         // 前序遍历
         int[] preOrder = new int[]{3, 9, 20, 15, 7};
         // 中序遍历
         int[] inOrder = new int[]{9, 3, 15, 20, 7};
 
         TreeNode treeNode = new Solution().reConstructBinaryTree(preOrder, inOrder);
+        System.out.println("前序遍历的二叉树" + Arrays.toString(preOrder) + "构造的二叉树前序遍历为" + TreeNodeUtil.preOrder(treeNode));
+
+        // 只有一个节点的二叉树
+        /**
+         *     3
+         */
+        preOrder = new int[]{3};
+        inOrder = new int[]{3};
+        treeNode = new Solution().reConstructBinaryTree(preOrder, inOrder);
+        System.out.println("前序遍历的二叉树" + Arrays.toString(preOrder) + "构造的二叉树前序遍历为" + TreeNodeUtil.preOrder(treeNode));
+
+        // 只有左子树的二叉树
+        /**
+         *     3
+         *    /
+         *   9
+         *  / \
+         * 4   5
+         *
+         */
+        preOrder = new int[]{3, 9, 4, 5};
+        inOrder = new int[]{4, 9, 5, 3};
+        treeNode = new Solution().reConstructBinaryTree(preOrder, inOrder);
+        System.out.println("前序遍历的二叉树" + Arrays.toString(preOrder) + "构造的二叉树前序遍历为" + TreeNodeUtil.preOrder(treeNode));
+
+        // 只有右子树的二叉树
+        /**
+         *     3
+         *      \
+         *      20
+         *     /  \
+         *    15   7
+         */
+        preOrder = new int[]{3, 20, 15, 7};
+        inOrder = new int[]{3, 15, 20, 7};
+        treeNode = new Solution().reConstructBinaryTree(preOrder, inOrder);
         System.out.println("前序遍历的二叉树" + Arrays.toString(preOrder) + "构造的二叉树前序遍历为" + TreeNodeUtil.preOrder(treeNode));
     }
 
