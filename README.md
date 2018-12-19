@@ -8,6 +8,7 @@
 | 面试题4-1 | [FindInPartiallySortedMatrix][0041] | Array |
 | 面试题5-1 | [ReplaceSpaces][0051] | String |
 | 面试题6-1 | [PrintListInReversedOrder][0061] | Linked List |
+| 面试题7-1 | [ConstructBinaryTree][0071] | Tree |
 
 
 
@@ -18,4 +19,4 @@
 [0041]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_04_01_FindInPartiallySortedMatrix/README.md
 [0051]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_05_01_ReplaceSpaces/README.md
 [0061]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_06_01_PrintListInReversedOrder/README.md
-
+[0071]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_07_01_ConstructBinaryTree/README.md
