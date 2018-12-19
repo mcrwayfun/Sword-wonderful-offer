@@ -1,8 +1,10 @@
 package _07_01_ConstructBinaryTree;
 
 import pojo.TreeNode;
+import utils.TreeNodeUtil;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -99,26 +101,8 @@ public class Solution {
         int[] inOrder = new int[]{9, 3, 15, 20, 7};
 
         TreeNode treeNode = new Solution().reConstructBinaryTree(preOrder, inOrder);
-        System.out.println(preOrder(treeNode));
+        System.out.println("前序遍历的二叉树" + Arrays.toString(preOrder) + "构造的二叉树前序遍历为" + TreeNodeUtil.preOrder(treeNode));
     }
 
-    public static List<Integer> preOrder(TreeNode root) {
-        List<Integer> reList = new ArrayList<>();
-        if (root == null) {
-            return reList;
-        }
-        preOrder(root, reList);
 
-        return reList;
-    }
-
-    private static void preOrder(TreeNode root, List<Integer> list) {
-        if (root == null) {
-            return;
-        }
-
-        list.add(root.val);
-        preOrder(root.left, list);
-        preOrder(root.right, list);
-    }
 }
