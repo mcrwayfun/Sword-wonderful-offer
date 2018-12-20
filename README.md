@@ -10,6 +10,7 @@
 | 面试题6-1 | [PrintListInReversedOrder][0061] | Linked List |
 | 面试题7-1 | [ConstructBinaryTree][0071] | Tree |
 | 面试题8-1 | [NextNodeInBinaryTrees][0081] | Tree |
+| 面试题9-1 | [QueueWithTwoStacks][0091] | Stack |
 
 
 
@@ -22,3 +23,4 @@
 [0061]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_06_01_PrintListInReversedOrder/README.md
 [0071]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_07_01_ConstructBinaryTree/README.md
 [0081]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_08_01_NextNodeInBinaryTrees/README.md
+[0091]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_09_01_QueueWithTwoStacks/README.md
