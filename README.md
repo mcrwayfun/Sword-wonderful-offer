@@ -11,6 +11,7 @@
 | 面试题7-1 | [ConstructBinaryTree][0071] | Tree |
 | 面试题8-1 | [NextNodeInBinaryTrees][0081] | Tree |
 | 面试题9-1 | [QueueWithTwoStacks][0091] | Stack |
+| 面试题9-2 | [StackWithTwoQueues][0092] | Queue |
 
 
 
@@ -24,3 +25,5 @@
 [0071]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_07_01_ConstructBinaryTree/README.md
 [0081]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_08_01_NextNodeInBinaryTrees/README.md
 [0091]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_09_01_QueueWithTwoStacks/README.md
+[0092]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_09_02_StackWithTwoQueues/README.md
+
