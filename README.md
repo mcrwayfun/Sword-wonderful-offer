@@ -15,6 +15,7 @@
 | 面试题10-1 | [Fibonacci][0101] | Recursive |
 | 面试题10-2 | [JumpFloor][0102] | Recursive |
 | 面试题10-3 | [JumpFloorII][0103] | Recursive |
+| 面试题11-1 | [MinNumberInRotatedArray][0111] | Array |
 
 
 
@@ -31,3 +32,4 @@
 [0102]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_10_02_JumpFloor/README.md
 [0102]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_10_02_JumpFloor/README.md
 [0103]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_10_03_JumpFloorII/README.md
+[0111]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_11_01_MinNumberInRotatedArray/README.md
