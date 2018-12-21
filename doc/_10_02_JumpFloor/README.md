@@ -18,9 +18,10 @@
 
 使用循环来求值，利用两个变量来表示f(n-1)和f(n-2)
 
-### 方法1
+### 方法2
 
 ```java
+// 对应思路2
 public class Solution {
 
     public int JumpFloor(int target) {
