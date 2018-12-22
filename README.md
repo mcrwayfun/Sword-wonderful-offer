@@ -16,6 +16,8 @@
 | 面试题10-2 | [JumpFloor][0102] | Recursive |
 | 面试题10-3 | [JumpFloorII][0103] | Recursive |
 | 面试题11-1 | [MinNumberInRotatedArray][0111] | Array |
+| 面试题12-1 | [StringPathInMatrix][0121] | Array |
+
 
 
 
@@ -33,3 +35,5 @@
 [0102]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_10_02_JumpFloor/README.md
 [0103]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_10_03_JumpFloorII/README.md
 [0111]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_11_01_MinNumberInRotatedArray/README.md
+[0121]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_12_01_StringPathInMatrix/README.md
+
