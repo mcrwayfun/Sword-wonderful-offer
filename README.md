@@ -18,6 +18,7 @@
 | 面试题11-1 | [MinNumberInRotatedArray][0111] | Array |
 | 面试题12-1 | [StringPathInMatrix][0121] | Array |
 | 面试题13-1 | [RobotMove][0131] | Array |
+| 面试题14-1 | [CuttingRope][0141] | Dynamic Programming |
 
 
 
@@ -38,3 +39,4 @@
 [0111]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_11_01_MinNumberInRotatedArray/README.md
 [0121]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_12_01_StringPathInMatrix/README.md
 [0131]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_13_01_RobotMove/README.md
+[0141]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_14_01_CuttingRope/README.md

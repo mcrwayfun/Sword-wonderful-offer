@@ -1,11 +1,27 @@
-package _14_01_CuttingRope;
+## 剪绳子
 
-/**
- * @author mcrwayfun
- * @version 1.0
- * @description 剪绳子求最大乘积
- * @date Created in 2018/12/23
- */
+### 题目描述
+
+给你一根长度为`n`绳子，请把绳子剪成`m`段（`m`、`n`都是整数，`n>1`并且`m≥1`）。每段的绳子的长度记为k[0]、k[1]、……、k[m]。k[0]*k[1]*…*k[m]可能的最大乘积是多少？例如当绳子的长度是 8 时，我们把它剪成长度分别为 `2、3、3` 的三段，此时得到最大的乘积`18`。
+
+
+### 思路1
+
+动态规划法，问题可以归纳为`f(n) = max{f(n-i) × f(i)}, 0 < i < n`，即可以由子问题来解决。子问题最终可以分解为4个基础问题，即：
+
+```java
+// 求f(n)可以由以下这4个值构成
+// 比如f(5) = f(2)*f(3)
+result[0] = 0;
+result[1] = 1;
+result[2] = 2;
+result[3] = 3;
+```
+
+
+### 方法1
+
+```java
 public class Solution {
 
     public int maxProductAfterCutting(int length) {
@@ -46,10 +62,8 @@ public class Solution {
 
         return result[length];
     }
-
-    public static void main(String[] args) {
-        int length = 4;
-        int productCounting = new Solution().maxProductAfterCutting(length);
-        System.out.println("长度为" + length + "绳子的最大乘积为" + productCounting);
-    }
 }
+```
+
+time complexity:O(n^2)
+space complexity:O(n)
