@@ -20,6 +20,7 @@
 | 面试题13-1 | [RobotMove][0131] | Array |
 | 面试题14-1 | [CuttingRope][0141] | Dynamic Programming |
 | 面试题15-1 | [NumberOf1InBinary][0151] | Binary |
+| 面试题15-2 | [PowerOf2][0152] | Binary |
 
 
 
@@ -42,3 +43,4 @@
 [0131]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_13_01_RobotMove/README.md
 [0141]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_14_01_CuttingRope/README.md
 [0151]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_01_NumberOf1InBinary/README.md
+[0152]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_02_PowerOf2/README.md
