@@ -34,3 +34,28 @@ public class Solution {
 
 time complexity:O(1)
 space complexity:O(1)
+
+### 思路2
+
+把一个整数减去1，再和原来的整数进行与运算，会将整数最右边的1变为0，那么二进制中有多少个1就有多少次这样的操作
+
+### 方法2
+
+```java
+public class Solution1 {
+
+    public int NumberOf1(int n) {
+        int count = 0;
+        while (n != 0) {
+            count++;
+            n = n & (n - 1);
+        }
+
+        return count;
+    }
+}
+```
+
+time complexity:O(1)
+
+space complexity:O(1)
