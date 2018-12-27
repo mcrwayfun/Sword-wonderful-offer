@@ -23,6 +23,7 @@
 | 面试题15-2 | [PowerOf2][0152] | Binary |
 | 面试题15-3 | [ChangeBinaryNumber][0153] | Binary |
 | 面试题16-1 | [Power][0161] | Math |
+| 面试题17-1 | [Print1ToMaxOfNDigits][0171] | Array |
 
 
 
@@ -48,3 +49,4 @@
 [0152]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_02_PowerOf2/README.md
 [0153]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_03_ChangeBinaryNumber/README.md
 [0161]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_16_01_Power/README.md
+[0171]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_17_Print1ToMaxOfNDigits/README.md
