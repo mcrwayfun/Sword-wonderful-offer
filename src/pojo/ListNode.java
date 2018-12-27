@@ -22,18 +22,18 @@ public class ListNode {
         this.next = next;
     }
 
-    @Override
-    public String toString() {
-
-        StringBuilder res = new StringBuilder();
-        res.append("ListNode=[");
-        ListNode current = next;
-        while (current != null) {
-            res.append(current.val + "->");
-            current = current.next;
-        }
-        res.append("Null]");
-
-        return res.toString();
-    }
+//    @Override
+//    public String toString() {
+//
+//        StringBuilder res = new StringBuilder();
+//        res.append("ListNode=[");
+//        ListNode current = next;
+//        while (current != null) {
+//            res.append(current.val + "->");
+//            current = current.next;
+//        }
+//        res.append("Null]");
+//
+//        return res.toString();
+//    }
 }
