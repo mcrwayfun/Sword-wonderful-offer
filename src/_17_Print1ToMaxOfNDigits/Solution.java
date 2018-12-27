@@ -41,7 +41,7 @@ public class Solution {
             res.append(nums[i]);
         }
 
-        // System.out.println(res.toString());
+        System.out.println(res.toString());
     }
 
     /**
