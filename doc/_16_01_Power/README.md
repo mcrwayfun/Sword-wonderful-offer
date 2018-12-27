@@ -46,6 +46,8 @@ NaN的意思为Not A Number，即不是一个数字，在Double中这么定义
 ### 方法1
 
 ```java
+public class Solution {
+
     public double power(double base, int exponent) {
 
         // base为0，返回0
@@ -61,7 +63,8 @@ NaN的意思为Not A Number，即不是一个数字，在Double中这么定义
 
         return exponent > 0 ? result : 1.0 / result;
     }
+}
 ```
 
-time complexity:O(n)
-space complexity:O(1)
+- time complexity:O(n)
+- space complexity:O(1)

@@ -15,6 +15,8 @@
 ### 方法1
 
 ```java
+public class Solution {
+
     public void print1ToMaxOfNDigits(int n) {
         if (n <= 0) {
             return;
@@ -54,6 +56,7 @@
      * @return 溢出则返回true，否则返回false
      */
     private boolean overflow(char[] nums) {
+
         boolean isOverFlow = false;
         int length = nums.length;
         // 进位1
@@ -78,7 +81,9 @@
 
         return isOverFlow;
     }
+
+}
 ```
 
-time complexity:O(10^n)
-space complexity:O(n)
+- time complexity:O(10^n)
+- space complexity:O(n)

@@ -11,12 +11,14 @@
 
 1. 如果被删除的节点不是尾节点，则可以把下一个节点覆盖被删除节点，并将删除节点的下下个节点指向当前被删除节点（`tobeDelete.next = tobeDelete.next.next`）
 2. 如果链表中仅有一个节点，则将当前节点设置为null
-3. 否则说明被删除节点是尾节点，不存在下一个节点，则需要通过遍历找到删除节点的前一个节点，再执行删除
+3. 否则说明被删除节点是尾节点，不存在下一个节点，直接`tobeDelete = null`
 
 
 ### 方法1
 
 ```java
+public class Solution {
+
     public ListNode deleteNode(ListNode head, ListNode tobeDelete) {
         if (head == null || tobeDelete == null) {
             return head;
@@ -39,7 +41,8 @@
 
         return head;
     }
+}
 ```
 
-time complexity:O(1)，平均时间复杂度为O(1)
-space complexity:O(1)
+- time complexity:O(1)
+- space complexity:O(1)
