@@ -33,6 +33,10 @@ public class Solution {
                 if (hasE) {
                     return false;
                 }
+                // e的前面必须是数字
+                if (i > 0 && str[i - 1] < '0' || str[i - 1] > '9') {
+                    return false;
+                }
                 hasE = true;
             } else if (str[i] == '+' || str[i] == '-') {
                 // 第一次出现符号，且不在字符串开头，则必须要跟在e后面
@@ -58,5 +62,12 @@ public class Solution {
         }
 
         return true;
+
+    }
+
+    public static void main(String[] args) {
+        char[] str = new char[]{'1', '.', 'e', '1'};
+        boolean numeric = new Solution().isNumeric(str);
+        System.out.println(numeric);
     }
 }
