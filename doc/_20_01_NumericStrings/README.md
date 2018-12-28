@@ -1,13 +1,30 @@
-package _20_01_NumericStrings;
+## 表示数值的字符串
 
-/**
- * @author mcrwayfun
- * @version 1.0
- * @description
- * @date Created in 2018/12/28
- */
-public class Solution {
+### 题目描述
 
+请实现一个函数用来判断字符串是否表示数值（包括整数和小数）。例如，字符串"+100","5e2","-123","3.1416"和"-1E-16"都表示数值。 但是"12e","1a3.14","1.2.3","+-5"和"12e+4.3"都不是。
+
+
+### 思路1
+
+根据题目要求，输入的应该满足以下格式：
+
+`[sign]integer-digits[.[fragment-digits]][e|E[sign]exponential-digits]`
+
+其中[]表示可有可无。这道题要找到不符合输入格式的规则进行判断即可。
+
+1. 遇到e或者E，后面不跟数字则不是数值
+2. 存在两个e或者E，则不是数值
+3. 第一次出现符号，且不在字符串开头，则必须要跟在e后面
+4. 第二次出现符号，则必须在e后面（比如+-5这种是错误的）
+5. 遇到小数点，若已经出现过e，则不是数值（因为e后面不可能有小数点）
+6. 小数点出现两次，则不是数值
+7. 出现非法字符（排除掉以上字符后，不是0~9的字符均为非法字符）
+
+
+### 方法1
+
+```java
     /**
      * 根据题目要求，输入的应该满足以下格式
      * [sign]integer-digits[.[fragment-digits]][e|E[sign]exponential-digits]
@@ -59,4 +76,7 @@ public class Solution {
 
         return true;
     }
-}
+```
+
+- time complexity:O(n)
+- space complexity:O(1)
