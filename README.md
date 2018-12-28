@@ -25,6 +25,7 @@
 | 面试题16-1 | [Power][0161] | Math |
 | 面试题17-1 | [Print1ToMaxOfNDigits][0171] | Array |
 | 面试题18-1 | [DeleteNodeInList][0181] | Linked List |
+| 面试题18-2 | [DeleteDuplicatedNode][0182] | Linked List |
 
 
 
@@ -52,3 +53,4 @@
 [0161]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_16_01_Power/README.md
 [0171]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_17_Print1ToMaxOfNDigits/README.md
 [0181]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_01_DeleteNodeInList/README.md
+[0181]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_02_DeleteDuplicatedNode/README.md
