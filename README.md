@@ -57,7 +57,7 @@
 [0161]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_16_01_Power/README.md
 [0171]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_17_Print1ToMaxOfNDigits/README.md
 [0181]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_01_DeleteNodeInList/README.md
-[0181]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_02_DeleteDuplicatedNode/README.md
+[0182]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_02_DeleteDuplicatedNode/README.md
 [0201]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_20_01_NumericStrings/README.md
 [0211]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_21_01_ReorderArray/README.md
 [0212]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_21_02_ReorderArray2/README.md
