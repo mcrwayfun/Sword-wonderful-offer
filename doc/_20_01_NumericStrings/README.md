@@ -85,3 +85,57 @@
 
 - time complexity:O(n)
 - space complexity:O(1)
+
+### 思路2
+
+表示数值的字符串遵循模式`A[.[B]][e|EC]`或者`.B[e|EC]`，其中A为数值的整数部分，B紧跟小数点为数值的小数部分，C紧跟着e或者E为数值的指数部分。上述A和C都有可能以 `+` 或者 `-` 开头的0~9的数位串，B也是0~9的数位串，但前面不能有正负号。
+
+```java
+public class Solution {
+
+    private int index = 0;
+
+    /**
+     * 判断是否是数值
+     * @param  str 
+     * @return 
+     */
+    public boolean isNumeric(char[] str) {
+        if (str.length < 1)
+            return false;
+
+        boolean flag = scanInteger(str);
+
+        if (index < str.length && str[index] == '.') {
+            index++;
+            flag = scanUnsignedInteger(str) || flag;
+        }
+
+        if (index < str.length && (str[index] == 'E' || str[index] == 'e')) {
+            index++;
+            flag = flag && scanInteger(str);
+        }
+
+        return flag && index == str.length;
+
+    }
+
+    private boolean scanInteger(char[] str) {
+        if (index < str.length && (str[index] == '+' || str[index] == '-'))
+            index++;
+        return scanUnsignedInteger(str);
+
+    }
+
+    private boolean scanUnsignedInteger(char[] str) {
+        int start = index;
+        while (index < str.length && str[index] >= '0' && str[index] <= '9')
+            index++;
+        // 是否存在整数
+        return start < index;
+    }
+}
+```
+
+- time complexity:O(n)
+- space complexity:O(1)

@@ -41,7 +41,8 @@ public class Solution1 {
         int start = index;
         while (index < str.length && str[index] >= '0' && str[index] <= '9')
             index++;
-        return start < index; //是否存在整数
+        //是否存在整数
+        return start < index;
     }
 
     public static void main(String[] args) {
