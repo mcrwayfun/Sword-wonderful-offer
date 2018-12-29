@@ -26,6 +26,8 @@
 ### 方法1
 
 ```java
+public class Solution {
+
     /**
      * 根据题目要求，输入的应该满足以下格式
      * [sign]integer-digits[.[fragment-digits]][e|E[sign]exponential-digits]
@@ -80,7 +82,9 @@
         }
 
         return true;
+
     }
+}
 ```
 
 - time complexity:O(n)
