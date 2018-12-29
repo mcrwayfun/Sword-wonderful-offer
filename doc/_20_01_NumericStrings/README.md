@@ -95,44 +95,49 @@ public class Solution {
 
     private int index = 0;
 
-    /**
-     * 判断是否是数值
-     * @param  str 
-     * @return 
-     */
     public boolean isNumeric(char[] str) {
-        if (str.length < 1)
+        if (str == null || str.length < 1) {
             return false;
+        }
 
+        // 判断是否存在整数
         boolean flag = scanInteger(str);
 
+        // 小数部分
         if (index < str.length && str[index] == '.') {
             index++;
+            // 小数部分可以有整数或者没有整数
+            // 所以使用 ||
             flag = scanUnsignedInteger(str) || flag;
         }
 
-        if (index < str.length && (str[index] == 'E' || str[index] == 'e')) {
+        if (index < str.length && (str[index] == 'e' || str[index] == 'E')) {
             index++;
-            flag = flag && scanInteger(str);
+            // e或E前面必须有数字
+            // e或者E后面必须有整数
+            // 所以使用 &&
+            flag = scanInteger(str) && flag;
         }
 
         return flag && index == str.length;
-
     }
 
     private boolean scanInteger(char[] str) {
-        if (index < str.length && (str[index] == '+' || str[index] == '-'))
+        // 去除符号
+        while (index < str.length && (str[index] == '+' || str[index] == '-')) {
             index++;
-        return scanUnsignedInteger(str);
+        }
 
+        return scanUnsignedInteger(str);
     }
 
     private boolean scanUnsignedInteger(char[] str) {
         int start = index;
-        while (index < str.length && str[index] >= '0' && str[index] <= '9')
+        while (index < str.length && str[index] >= '0' && str[index] <= '9') {
             index++;
-        // 是否存在整数
-        return start < index;
+        }
+        // 判断是否存在整数
+        return index > start;
     }
 }
 ```
