@@ -30,6 +30,7 @@
 | 面试题21-1 | [ReorderArray][0211] | Array |
 | 面试题21-2 | [RecorderArray2][0212] | Array |
 | 面试题22-1 | [KthNodeFromEnd][0221] | Linked List |
+| 面试题23-1 | [EntryNodeInListLoop][0231] | Linked List |
 
 
 
@@ -62,3 +63,4 @@
 [0211]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_21_01_ReorderArray/README.md
 [0212]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_21_02_ReorderArray2/README.md
 [0221]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_22_01_KthNodeFromEnd/README.md
+[0231]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_23_01_EntryNodeInListLoop/README.md
