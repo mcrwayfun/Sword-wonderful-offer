@@ -32,6 +32,7 @@
 | 面试题22-1 | [KthNodeFromEnd][0221] | Linked List |
 | 面试题23-1 | [EntryNodeInListLoop][0231] | Linked List |
 | 面试题23-2 | [EntryNodeInListLoop2][0232] | Linked List |
+| 面试题24-1 | [ReverseList][0241] | Linked List |
 
 
 
@@ -66,3 +67,4 @@
 [0221]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_22_01_KthNodeFromEnd/README.md
 [0231]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_23_01_EntryNodeInListLoop/README.md
 [0232]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_23_02_EntryNodeInListLoop/README.md
+[0241]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_24_01_ReverseList/README.md
