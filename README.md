@@ -61,7 +61,7 @@
 [0152]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_02_PowerOf2/README.md
 [0153]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_15_03_ChangeBinaryNumber/README.md
 [0161]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_16_01_Power/README.md
-[0171]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_17_Print1ToMaxOfNDigits/README.md
+[0171]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_17_01_Print1ToMaxOfNDigits/README.md
 [0181]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_01_DeleteNodeInList/README.md
 [0182]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_18_02_DeleteDuplicatedNode/README.md
 [0201]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_20_01_NumericStrings/README.md
