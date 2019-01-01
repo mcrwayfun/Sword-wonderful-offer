@@ -1,0 +1,57 @@
+package _26_01_SubstructureInTree;
+
+import pojo.TreeNode;
+
+/**
+ * @author mcrwayfun
+ * @version v1.0
+ * @date Created in 2019/01/01
+ * @description
+ */
+public class Solution {
+
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
+
+        if (root1 == null || root2 == null) {
+            return false;
+        }
+
+        return isSame(root1, root2) || HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
+    }
+
+    private boolean isSame(TreeNode root1, TreeNode root2) {
+
+        if (root2 == null) {
+            return true;
+        }
+
+        // 在root2，root1遍历完成后，仍未找到符合的结构，返回false
+        if (root1 == null) {
+            return false;
+        }
+
+        if (root1.val != root2.val) {
+            return false;
+        }
+
+        return isSame(root1.left, root2.left) && isSame(root1.right, root2.right);
+    }
+
+    public static void main(String[] args) {
+
+        /**
+         * root1
+         *      8
+         *   8     7
+         * 9  2
+         *   4  7
+         */
+
+        /**
+         * root2
+         *      8
+         *   9      2
+         */
+
+    }
+}
