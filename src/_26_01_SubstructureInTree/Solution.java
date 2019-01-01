@@ -16,7 +16,8 @@ public class Solution {
             return false;
         }
 
-        return isSame(root1, root2) || HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
+        return isSame(root1, root2) ||
+                HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
     }
 
     private boolean isSame(TreeNode root1, TreeNode root2) {
@@ -37,21 +38,4 @@ public class Solution {
         return isSame(root1.left, root2.left) && isSame(root1.right, root2.right);
     }
 
-    public static void main(String[] args) {
-
-        /**
-         * root1
-         *      8
-         *   8     7
-         * 9  2
-         *   4  7
-         */
-
-        /**
-         * root2
-         *      8
-         *   9      2
-         */
-
-    }
 }
