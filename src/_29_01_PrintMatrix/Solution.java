@@ -41,16 +41,26 @@ public class Solution {
             reList.add(matrix[start][i]);
         }
 
-        // 从上到下，[]
-        for (int i = start + 1; i >= start; i--) {
-            reList.add(matrix[i][endX]);
+        if (start < endY) {
+            // 从上到下，x不变y增加
+            for (int i = start + 1; i <= endY; i++) {
+                reList.add(matrix[i][endX]);
+            }
         }
 
-        // 从右到左，[unchanging,reduce]
-        for (int i = endX - 1; i >= start; i--) {
-            reList.add(matrix[endY][i]);
+        if (start < endX && start < endY) {
+            // 从右到左，x减少y不变
+            for (int i = endX - 1; i >= start; i--) {
+                reList.add(matrix[endY][i]);
+            }
         }
 
+        if (start < endX && start < endY - 1) {
+            // 从下到上，x不变y减少
+            for (int i = endY - 1; i > start; i--) {
+                reList.add(matrix[i][start]);
+            }
+        }
     }
 
     public static void main(String[] args) {
