@@ -36,6 +36,8 @@
 | 面试题25-1 | [MergeSortedLists][0251] | Linked List |
 | 面试题26-1 | [SubstructureInTree][0261] | Tree |
 | 面试题27-1 | [MirrorOfBinaryTree][0271] | Tree |
+| 面试题28-1 | [SymmetricalBinaryTree][0281] | Tree |
+|  |  |  |
 
 
 
@@ -74,3 +76,4 @@
 [0251]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_25_01_MergeSortedLists/README.md
 [0261]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_26_01_SubstructureInTree/README.md
 [0271]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_27_01_MirrorOfBinaryTree/README.md
+[0281]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_28_01_SymmetricalBinaryTree/README.md
