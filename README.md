@@ -39,6 +39,7 @@
 | 面试题28-1 | [SymmetricalBinaryTree][0281] | Tree |
 | 面试题29-1 | [PrintMatrix][0291] | Array |
 | 面试题30-1 | [MinInStack][0301] | Stack |
+| 面试题31-1 | [StackPushPopOrder][0311] | Stack |
 
 
 
@@ -80,3 +81,4 @@
 [0281]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_28_01_SymmetricalBinaryTree/README.md
 [0291]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_29_01_PrintMatrix/README.md
 [0301]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_30_01_MinInStack/README.md
+[0311]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_31_01_StackPushPopOrder/README.md
