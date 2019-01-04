@@ -1,7 +1,7 @@
 # Sword-wonderful-offer
 剑指offer-java实现
 
-| 编号 | 题目 | 类型 |
+| .编号 | 题目 | 类型 |
 | :-------- | :----------------------------- | :---- |
 | 面试题3-1 | [DuplicationInArray][0031] | Array |
 | 面试题3-2 | [DuplicationInArrayNoEdit][0032] | Array |
@@ -41,6 +41,7 @@
 | 面试题30-1 | [MinInStack][0301] | Stack |
 | 面试题31-1 | [StackPushPopOrder][0311] | Stack |
 | 面试题32-1 | [PrintTreeFromTopToBottom][0321] | Tree |
+| 面试题32-2 | [PrintTreesInLines][0322] | Tree |
 
 
 
@@ -84,3 +85,4 @@
 [0301]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_30_01_MinInStack/README.md
 [0311]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_31_01_StackPushPopOrder/README.md
 [0321]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_01_PrintTreeFromTopToBottom/README.md
+[0322]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_02_PrintTreesInLines/README.md
