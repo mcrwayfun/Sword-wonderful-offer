@@ -40,6 +40,7 @@
 | 面试题29-1 | [PrintMatrix][0291] | Array |
 | 面试题30-1 | [MinInStack][0301] | Stack |
 | 面试题31-1 | [StackPushPopOrder][0311] | Stack |
+| 面试题32-1 | [PrintTreeFromTopToBottom][0321] | Tree |
 
 
 
@@ -82,3 +83,4 @@
 [0291]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_29_01_PrintMatrix/README.md
 [0301]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_30_01_MinInStack/README.md
 [0311]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_31_01_StackPushPopOrder/README.md
+[0321]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_01_PrintTreeFromTopToBottom/README.md
