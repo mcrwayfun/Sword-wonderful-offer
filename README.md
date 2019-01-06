@@ -43,6 +43,7 @@
 | 面试题32-1 | [PrintTreeFromTopToBottom][0321] | Tree |
 | 面试题32-2 | [PrintTreesInLines][0322] | Tree |
 | 面试题32-3 | [PrintTreesInZigzag][0323] | Tree |
+| 面试题33-1 | [SquenceOfBST][0331] | Tree |
 
 
 
@@ -88,3 +89,4 @@
 [0321]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_01_PrintTreeFromTopToBottom/README.md
 [0322]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_02_PrintTreesInLines/README.md
 [0323]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_03_PrintTreesInZigzag/README.md
+[0331]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_33_01_SquenceOfBST/README.md
