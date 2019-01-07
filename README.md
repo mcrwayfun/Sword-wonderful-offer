@@ -45,6 +45,7 @@
 | 面试题32-3 | [PrintTreesInZigzag][0323] | Tree |
 | 面试题33-1 | [SquenceOfBST][0331] | Tree |
 | 面试题34-1 | [PathInTree][0341] | Tree |
+| 面试题35-1 | [CopyComplexList][0351] | Linked List |
 
 
 
@@ -92,3 +93,4 @@
 [0323]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_32_03_PrintTreesInZigzag/README.md
 [0331]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_33_01_SquenceOfBST/README.md
 [0341]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_34_01_PathInTree/README.md
+[0351]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_35_01_CopyComplexList/README.md
