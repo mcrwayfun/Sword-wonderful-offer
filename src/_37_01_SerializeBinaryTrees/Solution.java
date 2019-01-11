@@ -29,29 +29,17 @@ public class Solution {
     }
 
 
-    public TreeNode Deserialize(String str) {
+    private int index = -1;
 
-        if (str == null || str.length() == 0) {
-            return null;
-        }
-
-
-        String[] strr = str.split(",");
-
-
-        return deserializeHelper(strr, -1);
-
-    }
-
-    private TreeNode deserializeHelper(String[] strr, int index) {
-
+    TreeNode Deserialize(String str) {
         index++;
-
+        
+        String[] strr = str.split(",");
         TreeNode node = null;
-        if (!"#".equals(strr[index])) {
+        if (!strr[index].equals("#")) {
             node = new TreeNode(Integer.valueOf(strr[index]));
-            node.left = deserializeHelper(strr, index);
-            node.right = deserializeHelper(strr, index);
+            node.left = Deserialize(str);
+            node.right = Deserialize(str);
         }
 
         return node;
