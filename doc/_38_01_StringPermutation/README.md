@@ -65,5 +65,5 @@ public class Solution {
 }
 ```
 
-- time complexity:
+- time complexity:O(n!)
 - space complexity:O(n)
