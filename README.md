@@ -47,6 +47,7 @@
 | 面试题34-1 | [PathInTree][0341] | Tree |
 | 面试题35-1 | [CopyComplexList][0351] | Linked List |
 | 面试题36-1 | [ConvertBinarySearchTree][0361] | Tree |
+| 面试题37-1 | [SerializeBinaryTrees][0371] | Tree |
 
 
 
@@ -96,3 +97,4 @@
 [0341]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_34_01_PathInTree/README.md
 [0351]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_35_01_CopyComplexList/README.md
 [0361]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_36_01_ConvertBinarySearchTree/README.md
+[0371]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_37_01_SerializeBinaryTrees/README.md
