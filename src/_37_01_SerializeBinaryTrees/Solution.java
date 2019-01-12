@@ -3,8 +3,6 @@ package _37_01_SerializeBinaryTrees;
 import pojo.TreeNode;
 import utils.TreeNodeUtil;
 
-import java.io.Serializable;
-
 /**
  * @author mcrwayfun
  * @version 1.0

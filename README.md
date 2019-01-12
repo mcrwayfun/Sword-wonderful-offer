@@ -48,6 +48,7 @@
 | 面试题35-1 | [CopyComplexList][0351] | Linked List |
 | 面试题36-1 | [ConvertBinarySearchTree][0361] | Tree |
 | 面试题37-1 | [SerializeBinaryTrees][0371] | Tree |
+| 面试题38-1 | [StringPermutation][0381] | String |
 
 
 
@@ -98,3 +99,4 @@
 [0351]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_35_01_CopyComplexList/README.md
 [0361]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_36_01_ConvertBinarySearchTree/README.md
 [0371]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_37_01_SerializeBinaryTrees/README.md
+[0381]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_38_01_StringPermutation/README.md
