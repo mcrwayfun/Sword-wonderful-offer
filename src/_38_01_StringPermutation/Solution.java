@@ -10,7 +10,6 @@ import java.util.*;
  */
 public class Solution {
 
-    private int count = 0;
 
     public ArrayList<String> Permutation(String str) {
 
@@ -39,7 +38,6 @@ public class Solution {
         Set<Character> set = new HashSet<>();
         // 确定交换的字符，包括自己[index,length-1]
         for (int i = index; i < chars.length; i++) {
-            count++;
             // 排除出现重复字符
             // hash表，查询花费O(1)
             if (!set.contains(chars[i])) {
@@ -69,6 +67,5 @@ public class Solution {
             System.out.println(res);
         }
         System.out.println("列表长度" + permutation.size());
-        System.out.println(solution.count);
     }
 }
