@@ -49,6 +49,7 @@
 | 面试题36-1 | [ConvertBinarySearchTree][0361] | Tree |
 | 面试题37-1 | [SerializeBinaryTrees][0371] | Tree |
 | 面试题38-1 | [StringPermutation][0381] | String |
+| 面试题38-2 | [StringCombination][0382] | String |
 
 
 
@@ -100,3 +101,4 @@
 [0361]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_36_01_ConvertBinarySearchTree/README.md
 [0371]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_37_01_SerializeBinaryTrees/README.md
 [0381]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_38_01_StringPermutation/README.md
+[0382]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_38_02_StringCombination/README.md
