@@ -1,55 +1,55 @@
 # Sword-wonderful-offer
 剑指offer-java实现
 
-| 编号 | 题目 | 类型 |
-| :-------- | :----------------------------- | :---- |
-| 面试题3-1 | [DuplicationInArray][0031] | Array |
-| 面试题3-2 | [DuplicationInArrayNoEdit][0032] | Array |
-| 面试题4-1 | [FindInPartiallySortedMatrix][0041] | Array |
-| 面试题5-1 | [ReplaceSpaces][0051] | String |
-| 面试题6-1 | [PrintListInReversedOrder][0061] | Linked List |
-| 面试题7-1 | [ConstructBinaryTree][0071] | Tree |
-| 面试题8-1 | [NextNodeInBinaryTrees][0081] | Tree |
-| 面试题9-1 | [QueueWithTwoStacks][0091] | Stack |
-| 面试题9-2 | [StackWithTwoQueues][0092] | Queue |
-| 面试题10-1 | [Fibonacci][0101] | Recursive |
-| 面试题10-2 | [JumpFloor][0102] | Recursive |
-| 面试题10-3 | [JumpFloorII][0103] | Recursive |
-| 面试题11-1 | [MinNumberInRotatedArray][0111] | Array |
-| 面试题12-1 | [StringPathInMatrix][0121] | Array |
-| 面试题13-1 | [RobotMove][0131] | Array |
-| 面试题14-1 | [CuttingRope][0141] | Dynamic Programming |
-| 面试题15-1 | [NumberOf1InBinary][0151] | Binary |
-| 面试题15-2 | [PowerOf2][0152] | Binary |
-| 面试题15-3 | [ChangeBinaryNumber][0153] | Binary |
-| 面试题16-1 | [Power][0161] | Math |
-| 面试题17-1 | [Print1ToMaxOfNDigits][0171] | Array |
-| 面试题18-1 | [DeleteNodeInList][0181] | Linked List |
-| 面试题18-2 | [DeleteDuplicatedNode][0182] | Linked List |
-| 面试题20-1 | [NumericStrings][0201] | String |
-| 面试题21-1 | [ReorderArray][0211] | Array |
-| 面试题21-2 | [RecorderArray2][0212] | Array |
-| 面试题22-1 | [KthNodeFromEnd][0221] | Linked List |
-| 面试题23-1 | [EntryNodeInListLoop][0231] | Linked List |
-| 面试题23-2 | [EntryNodeInListLoop2][0232] | Linked List |
-| 面试题24-1 | [ReverseList][0241] | Linked List |
-| 面试题25-1 | [MergeSortedLists][0251] | Linked List |
-| 面试题26-1 | [SubstructureInTree][0261] | Tree |
-| 面试题27-1 | [MirrorOfBinaryTree][0271] | Tree |
-| 面试题28-1 | [SymmetricalBinaryTree][0281] | Tree |
-| 面试题29-1 | [PrintMatrix][0291] | Array |
-| 面试题30-1 | [MinInStack][0301] | Stack |
-| 面试题31-1 | [StackPushPopOrder][0311] | Stack |
-| 面试题32-1 | [PrintTreeFromTopToBottom][0321] | Tree |
-| 面试题32-2 | [PrintTreesInLines][0322] | Tree |
-| 面试题32-3 | [PrintTreesInZigzag][0323] | Tree |
-| 面试题33-1 | [SquenceOfBST][0331] | Tree |
-| 面试题34-1 | [PathInTree][0341] | Tree |
-| 面试题35-1 | [CopyComplexList][0351] | Linked List |
-| 面试题36-1 | [ConvertBinarySearchTree][0361] | Tree |
-| 面试题37-1 | [SerializeBinaryTrees][0371] | Tree |
-| 面试题38-1 | [StringPermutation][0381] | String |
-| 面试题38-2 | [StringCombination][0382] | String |
+| 编号       | 题目                                    | 类型                |
+| :--------- | :-------------------------------------- | :------------------ |
+| 面试题3-1  | [数组中重复的数字][0031]                | Array               |
+| 面试题3-2  | [不修改数组找出重复的数字][0032]        | Array               |
+| 面试题4-1  | [二维数组中的查找][0041]                | Array               |
+| 面试题5-1  | [替换空格][0051]                        | String              |
+| 面试题6-1  | [从尾到头打印链表][0061]                | Linked List         |
+| 面试题7-1  | [重建二叉树][0071]                      | Tree                |
+| 面试题8-1  | [二叉树的下一个节点][0081]              | Tree                |
+| 面试题9-1  | [用两个栈实现队列][0091]                | Stack               |
+| 面试题9-2  | [用两个队列实现栈][0092]                | Queue               |
+| 面试题10-1 | [斐波那契数列][0101]                    | Recursive           |
+| 面试题10-2 | [跳楼梯][0102]                          | Recursive           |
+| 面试题10-3 | [跳楼梯2][0103]                         | Recursive           |
+| 面试题11-1 | [旋转数组的最小数字][0111]              | Array               |
+| 面试题12-1 | [矩阵中的路径][0121]                    | Array               |
+| 面试题13-1 | [机器人的运动范围][0131]                | Array               |
+| 面试题14-1 | [剪绳子][0141]                          | Dynamic Programming |
+| 面试题15-1 | [二进制中1的个数][0151]                 | Binary              |
+| 面试题15-2 | [整数是不是2的整数次方][0152]           | Binary              |
+| 面试题15-3 | [m改变多少位得到n][0153]                | Binary              |
+| 面试题16-1 | [数值的整数次方][0161]                  | Math                |
+| 面试题17-1 | [打印从1到做到的n位数][0171]            | Array               |
+| 面试题18-1 | [删除链表的节点][0181]                  | Linked List         |
+| 面试题18-2 | [删除链表的重复节点][0182]              | Linked List         |
+| 面试题20-1 | [表示数值的字符串][0201]                | String              |
+| 面试题21-1 | [调整数组顺序使奇数位于偶数前面][0211]  | Array               |
+| 面试题21-2 | [调整数组顺序使奇数位于偶数前面2][0212] | Array               |
+| 面试题22-1 | [链表中倒数第k个节点][0221]             | Linked List         |
+| 面试题23-1 | [链表中环的入口节点][0231]              | Linked List         |
+| 面试题23-2 | [链表中环的入口节点2][0232]             | Linked List         |
+| 面试题24-1 | [反转链表][0241]                        | Linked List         |
+| 面试题25-1 | [合并两个排序的链表][0251]              | Linked List         |
+| 面试题26-1 | [树的子结构][0261]                      | Tree                |
+| 面试题27-1 | [二叉树的镜像][0271]                    | Tree                |
+| 面试题28-1 | [对称的二叉树][0281]                    | Tree                |
+| 面试题29-1 | [顺时针打印矩阵][0291]                  | Array               |
+| 面试题30-1 | [包含min函数的栈][0301]                 | Stack               |
+| 面试题31-1 | [栈的压入、弹出序列][0311]              | Stack               |
+| 面试题32-1 | [从上到下打印二叉树][0321]              | Tree                |
+| 面试题32-2 | [从上到下按行打印二叉树][0322]          | Tree                |
+| 面试题32-3 | [按之形打印二叉树][0323]                | Tree                |
+| 面试题33-1 | [二叉搜索树的后序遍历序列][0331]        | Tree                |
+| 面试题34-1 | [二叉树中和为某一值的路径][0341]        | Tree                |
+| 面试题35-1 | [复杂链表的复制][0351]                  | Linked List         |
+| 面试题36-1 | [二叉搜索树与双向链表][0361]            | Tree                |
+| 面试题37-1 | [序列化二叉树][0371]                    | Tree                |
+| 面试题38-1 | [字符串的排列-全排列][0381]             | String              |
+| 面试题38-2 | [字符串的排列-全组合][0382]             | String              |
 
 
 
