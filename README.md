@@ -52,6 +52,7 @@
 | 面试题38-2 | [字符串的排列-全组合][0382]             | String              |
 | 面试题39-1 | [数组中出现次数超过一半的数字][0391]    | Array               |
 | 面试题40-1 | [最小的K个数][0401]                     | Array               |
+| 面试题41-1 | [数据流中的中位数][0411]                | Heap                |
 
 
 
@@ -106,3 +107,4 @@
 [0382]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_38_02_StringCombination/README.md
 [0391]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_39_01_MoreThanHalfNumber/README.md
 [0401]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_40_01_KLeastNumbers/README.md
+[0411]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_41_01_StreamMedian/README.md
