@@ -55,6 +55,7 @@
 | 面试题41-1 | [数据流中的中位数][0411]                | Heap                |
 | 面试题42-1 | [连续子数组的最大和][0421]              | Array               |
 | 面试题43-1 | [整数中1出现的次数][0431]               | Math                |
+| 面试题44-1 | [数字序列中某一位的数字][0441]          | Math                |
 
 
 
@@ -112,3 +113,4 @@
 [0411]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_41_01_StreamMedian/README.md
 [0421]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_42_01_GreatestSumOfSubarrays/README.md
 [0431]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_43_01_NumberOf1/README.md
+[0441]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_44_01_DigitsInSequence/README.md
