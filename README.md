@@ -58,6 +58,7 @@
 | 面试题44-1 | [数字序列中某一位的数字][0441]          | Math                |
 | 面试题45-1 | [把数组排成最小的数][0451]              | String              |
 | 面试题46-1 | [把数字翻译成字符串][0461]              | Math                |
+| 面试题47-1 | [礼物的最大价值][0471]                  | Dynamic Programming |
 
 
 
@@ -118,3 +119,4 @@
 [0441]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_44_01_DigitsInSequence/README.md
 [0451]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_45_01_SortArrayForMinNumber/README.md
 [0461]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_46_01_TranslateNumbersToStrings/README.md
+[0471]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_47_01_MaxValueOfGifts/README.md
