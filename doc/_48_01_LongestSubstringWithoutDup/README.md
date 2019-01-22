@@ -1,13 +1,23 @@
-package _48_01_LongestSubstringWithoutDup;
+## 最长不含重复字符的子字符串
 
-import java.util.Arrays;
+### 题目描述
 
-/**
- * @author mcrwayfun
- * @version 1.0
- * @description
- * @date Created in 2019/1/22
- */
+请从字符串中找出一个最长的不包含重复字符的子字符串，计算该最长子字符串的长度。
+
+假设字符串中只包含从 a 到 z的字符。
+
+### 思路
+
+使用动态规划来解决该问题。定义数组`characters` 来存储字符出现的位置， `res[i]` 表示以 `chars[i]` 字符结尾最长不重复的字符串长度。对于`res[i]`，
+
+- 如果当前字符`chars[i]` 以前没有出现过，即 `characters[chars[i] - 'a']）!= -1` ，则 `res[i] = res[i-1] + 1 `; 
+- 如果`res[i]` 之前出现过，则获取它当前位置 `i` 与之前出现位置`index = characters[chars[i] - 'a']）`的距离 `distance = i - index` 和 `res[i-1]` 的大小
+  - 如果 `distance > res[i-1]` ，则 `res[i] = res[i-1] + 1`
+  - 如果 `distance <= res[i-1]` ，则 `res[i] = distance`
+
+### 方法
+
+```java
 public class Solution {
 
     public int longestSubstringWithoutDuplication(String s) {
@@ -48,11 +58,8 @@ public class Solution {
 
         return maxLength;
     }
-
-    public static void main(String[] args) {
-        String s = "arabcacfr";
-        Solution solution = new Solution();
-        int max = solution.longestSubstringWithoutDuplication(s);
-        System.out.println(max);
-    }
 }
+```
+
+- time complexity:O(n)
+- space complexity:O(n)
