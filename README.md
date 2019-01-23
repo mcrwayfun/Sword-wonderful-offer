@@ -60,6 +60,7 @@
 | 面试题46-1 | [把数字翻译成字符串][0461]              | Math                |
 | 面试题47-1 | [礼物的最大价值][0471]                  | Dynamic Programming |
 | 面试题48-1 | [最长不含重复字符的子字符串][0481]      | Dynamic Programming |
+| 面试题49-1 | [丑数][0491]                            | Math                |
 
 
 
@@ -122,3 +123,4 @@
 [0461]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_46_01_TranslateNumbersToStrings/README.md
 [0471]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_47_01_MaxValueOfGifts/README.md
 [0481]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_48_01_LongestSubstringWithoutDup/README.md
+[0491]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_49_01_UglyNumber/README.md
