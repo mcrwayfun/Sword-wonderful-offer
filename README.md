@@ -61,6 +61,7 @@
 | 面试题47-1 | [礼物的最大价值][0471]                  | Dynamic Programming |
 | 面试题48-1 | [最长不含重复字符的子字符串][0481]      | Dynamic Programming |
 | 面试题49-1 | [丑数][0491]                            | Math                |
+| 面试题50-1 | [第一个只出现一次的字符][0501]          | HashTable           |
 
 
 
@@ -124,3 +125,4 @@
 [0471]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_47_01_MaxValueOfGifts/README.md
 [0481]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_48_01_LongestSubstringWithoutDup/README.md
 [0491]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_49_01_UglyNumber/README.md
+[0501]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_50_01_FirstNotRepeatingChar/README.md
