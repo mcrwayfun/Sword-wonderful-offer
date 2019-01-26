@@ -63,6 +63,7 @@
 | 面试题49-1 | [丑数][0491]                            | Math                |
 | 面试题50-1 | [第一个只出现一次的字符][0501]          | HashTable           |
 | 面试题50-2 | [字符流中第一个不重复的字符][0502]      | HashTable           |
+| 面试题52-1 | [两个链表的第一个公共结点][0521]        | Linked List         |
 
 
 
@@ -128,3 +129,4 @@
 [0491]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_49_01_UglyNumber/README.md
 [0501]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_50_01_FirstNotRepeatingChar/README.md
 [0502]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_50_02_FristCharacterInStream/README.md
+[0521]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_52_01_FirstCommonNodesInLists/README.md
