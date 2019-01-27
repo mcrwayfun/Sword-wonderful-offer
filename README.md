@@ -64,6 +64,7 @@
 | 面试题50-1 | [第一个只出现一次的字符][0501]          | HashTable           |
 | 面试题50-2 | [字符流中第一个不重复的字符][0502]      | HashTable           |
 | 面试题52-1 | [两个链表的第一个公共结点][0521]        | Linked List         |
+| 面试题53-1 | [数字在排序数组中出现的次数][0531]      | Binary Search       |
 
 
 
@@ -130,3 +131,4 @@
 [0501]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_50_01_FirstNotRepeatingChar/README.md
 [0502]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_50_02_FristCharacterInStream/README.md
 [0521]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_52_01_FirstCommonNodesInLists/README.md
+[0531]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_53_01_NumberOfK/README.md
