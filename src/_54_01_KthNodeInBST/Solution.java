@@ -10,34 +10,36 @@ import pojo.TreeNode;
  */
 public class Solution {
 
-    private TreeNode retNode = null;
-    private Integer count = 0;
+    private int count = 0;
 
     public TreeNode KthNode(TreeNode pRoot, int k) {
 
         if (pRoot == null || k == 0) {
             return null;
         }
-        count = k;
-        midOrder(pRoot);
-        return retNode;
-    }
 
-    private void midOrder(TreeNode root) {
+        // 左递归
+        TreeNode retNode = KthNode(pRoot.left, k);
 
-        if (root == null) {
-            return;
+        if (retNode != null) {
+            return retNode;
         }
 
-        midOrder(root.left);
-        if (count == 1 && retNode == null) {
-            retNode = root;
-            return;
-        } else {
-            count--;
+        // 符合条件则返回
+        count++;
+        if (count == k) {
+            return pRoot;
         }
-        midOrder(root.right);
+
+        // 右递归
+        retNode = KthNode(pRoot.right, k);
+        if (retNode != null) {
+            return retNode;
+        }
+
+        return null;
     }
+
 
     public static void main(String[] args) {
         TreeNode node2 = new TreeNode(2);
@@ -59,6 +61,7 @@ public class Solution {
         node5.right = node7;
 
         TreeNode treeNode = new Solution().KthNode(node5, 3);
-        System.out.println(treeNode.val);
+        if (treeNode != null)
+            System.out.println(treeNode.val);
     }
 }
