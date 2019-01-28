@@ -67,6 +67,7 @@
 | 面试题53-1 | [数字在排序数组中出现的次数][0531]      | Binary Search       |
 | 面试题53-2 | [0到n-1中缺失的数字][0532]              | Binary Search       |
 | 面试题53-3 | [数组中数值和下标相等的元素][0533]      | Binary Search       |
+| 面试题54-1 | [二叉搜索树的第k个结点][0541]           | Binary Tree         |
 
 
 
@@ -136,3 +137,4 @@
 [0531]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_53_01_NumberOfK/README.md
 [0532]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_53_02_MissingNumber/README.md
 [0533]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_53_03_IntegerIdenticalToIndex/README.md
+[0541]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_54_01_KthNodeInBST/README.md
