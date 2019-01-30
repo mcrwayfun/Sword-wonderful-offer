@@ -69,6 +69,7 @@
 | 面试题53-3 | [数组中数值和下标相等的元素][0533]      | Binary Search       |
 | 面试题54-1 | [二叉搜索树的第k个结点][0541]           | Binary Tree         |
 | 面试题55-1 | [二叉树的深度][0551]                    | Binary Tree         |
+| 面试题55-2 | [平衡二叉树][0552]                      | Binary Tree         |
 
 
 
@@ -140,3 +141,4 @@
 [0533]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_53_03_IntegerIdenticalToIndex/README.md
 [0541]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_54_01_KthNodeInBST/README.md
 [0551]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_55_01_TreeDepth/README.md
+[0552]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_55_02_BalancedBinaryTree/README.md
