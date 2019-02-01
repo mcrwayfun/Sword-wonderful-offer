@@ -64,16 +64,19 @@ public class Solution{
             return reList;
         }
 
-        Set<Integer> set = new HashSet<>();
-        for (int x : array) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < array.length; i++) {
+            map.put(array[i], i);
+        }
 
-            if (set.contains(sum - x)) {
-                reList.add(sum - x);
-                reList.add(x);
-                return reList;
+        for (int i = 0; i < array.length; i++) {
+            int sub = sum - array[i];
+            // 从左到右找到的第一对sum，乘积肯定是最小的
+            if (map.containsKey(sub)) {
+                reList.add(array[i]);
+                reList.add(sub);
+                break;
             }
-
-            set.add(x);
         }
 
         return reList;
