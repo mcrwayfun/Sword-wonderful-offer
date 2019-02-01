@@ -1,6 +1,8 @@
 package _57_01_TwoNumbersWithSum;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author mcrwayfun
@@ -8,8 +10,15 @@ import java.util.ArrayList;
  * @date Created in 2019/02/02
  * @description
  */
-public class Solution {
+public class Solution1 {
 
+    /**
+     * 如果输入的数组是乱序的
+     *
+     * @param array
+     * @param sum
+     * @return
+     */
     public ArrayList<Integer> FindNumbersWithSum(int[] array, int sum) {
 
         ArrayList<Integer> reList = new ArrayList<>();
@@ -18,33 +27,27 @@ public class Solution {
             return reList;
         }
 
-        int start = 0;
-        int end = array.length - 1;
+        Set<Integer> set = new HashSet<>();
+        for (int x : array) {
 
-        while (start < end) {
-
-            int curSum = array[start] + array[end];
-            if (curSum == sum) {
-                reList.add(array[start]);
-                reList.add(array[end]);
+            if (set.contains(sum - x)) {
+                reList.add(sum - x);
+                reList.add(x);
                 return reList;
-            } else if (curSum < sum) {
-                start++;
-            } else {
-                end--;
             }
+
+            set.add(x);
         }
 
-        // 查无
         return reList;
     }
 
-
     public static void main(String[] args) {
         int[] array = new int[]{1, 2, 4, 7, 11, 15};
-        ArrayList<Integer> integers = new Solution().FindNumbersWithSum(array, 15);
+        ArrayList<Integer> integers = new Solution1().FindNumbersWithSum(array, 15);
         for (int x : integers) {
             System.out.println(x);
         }
     }
+
 }
