@@ -71,6 +71,7 @@
 | 面试题55-1 | [二叉树的深度][0551]                    | Binary Tree         |
 | 面试题55-2 | [平衡二叉树][0552]                      | Binary Tree         |
 | 面试题56-1 | [数组中只出现一次的两个数字][0561]      | Array               |
+| 面试题56-2 | [数组中唯一出现一次的数字][0562]        | Array               |
 
 
 
@@ -144,3 +145,4 @@
 [0551]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_55_01_TreeDepth/README.md
 [0552]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_55_02_BalancedBinaryTree/README.md
 [0561]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_56_01_NumbersAppearOnce/README.md
+[0562]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_56_02_NumberAppearingOnce/README.md
