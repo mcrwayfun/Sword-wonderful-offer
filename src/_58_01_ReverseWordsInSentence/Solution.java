@@ -35,7 +35,7 @@ public class Solution {
                 end++;
             }
         }
-
+        // 对最后一个单词进行翻转
         reverse(chars, start, chars.length - 1);
         return String.valueOf(chars);
     }
@@ -59,6 +59,7 @@ public class Solution {
     public static void main(String[] args) {
         String str = "I am a student.";
 //        str = "Wonderful";
+        str = "   ";
         Solution solution = new Solution();
 
         String reverseSentence = solution.ReverseSentence(str);
