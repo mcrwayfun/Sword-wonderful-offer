@@ -11,7 +11,7 @@ public class Solution {
     public String LeftRotateString(String str, int n) {
 
         if (str == null || str.length() == 0
-                || str.trim().equals("") || n < 1) {
+                || str.trim().equals("") || n < 1 || n > str.length()) {
 
             return str;
         }

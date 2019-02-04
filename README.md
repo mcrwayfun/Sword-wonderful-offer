@@ -75,6 +75,7 @@
 | 面试题57-1 | [和为S的两个数][0571]                   | Array               |
 | 面试题57-2 | [和为s的连续正数序列][0572]             | Array               |
 | 面试题58-1 | [翻转单词顺序][0581]                    | String              |
+| 面试题58-2 | [左旋转字符串][0582]                    | String              |
 
 
 
@@ -152,3 +153,4 @@
 [0571]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_57_01_TwoNumbersWithSum/README.md
 [0572]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_57_02_ContinuousSquenceWithSum/README.md
 [0581]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_58_01_ReverseWordsInSentence/README.md
+[0582]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_58_02_LeftRotateString/README.md
