@@ -76,6 +76,7 @@
 | 面试题57-2 | [和为s的连续正数序列][0572]             | Array               |
 | 面试题58-1 | [翻转单词顺序][0581]                    | String              |
 | 面试题58-2 | [左旋转字符串][0582]                    | String              |
+| 面试题59-1 | [滑动窗口的最大值][0591]                | Linked List         |
 
 
 
@@ -154,3 +155,4 @@
 [0572]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_57_02_ContinuousSquenceWithSum/README.md
 [0581]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_58_01_ReverseWordsInSentence/README.md
 [0582]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_58_02_LeftRotateString/README.md
+[0591]:https://github.com/mcrwayfun/Sword-wonderful-offer/blob/master/doc/_59_01_MaxInSlidingWindow/README.md
