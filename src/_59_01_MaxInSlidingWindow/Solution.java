@@ -22,7 +22,7 @@ public class Solution {
         Deque<Integer> deque = new LinkedList<>();
         for (int i = 0; i < num.length; i++) {
 
-            // 对尾元素比要入队的元素小，则把其移除（因为不可能成为窗口最大值）
+            // 队尾元素比要入队的元素小，则把其移除（因为不可能成为窗口最大值）
             while (!deque.isEmpty() && num[deque.getLast()] <= num[i]) {
                 System.out.println("当前队头元素为：" + num[deque.getFirst()]);
                 System.out.println("需要入队的元素为：" + num[i] + "，出队的元素为：" + num[deque.getLast()]);
